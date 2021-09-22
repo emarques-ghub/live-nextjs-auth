@@ -1,0 +1,9 @@
+/*
+o nomedoarquivo.module.css
+gera um css unico para aquela pagina evitando 
+colisao com outras classes de css
+*/
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
