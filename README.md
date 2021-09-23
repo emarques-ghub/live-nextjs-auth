@@ -1,3 +1,16 @@
+## Exemplo da LIVE
+Executar na porta 3001 
+Tem que estar com os seguintes projetos sendo executados pelo docker-compose:
+- app AUTH  
+- apache-kafka
+
+- se necessario, antes criar 
+docker network create my-network
+
+- run e acessar a pagina de login http://localhost:3001/login
+PORT=3001 npm run dev
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
